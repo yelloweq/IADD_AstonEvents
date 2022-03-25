@@ -1,0 +1,41 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+body, html {
+    overflow-x: hidden;
+}
+
+.gradient {
+    background: rgb(26,56,229);
+    background: linear-gradient(172deg, rgba(26,56,229,1) 0%, rgba(26,229,199,1) 100%); 
+}
+
+.split {
+    display: flex;
+    justify-content: space-around;
+}
+
+.heart-icon{
+    fill: #1A1A1A;
+}
+
+.heart-icon-active{
+    fill: red;
+}
+
+a:hover > .heart-icon{
+    fill: red;
+}
+
+
+.button-text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.btn:focus {
+    outline: none !important;
+  }
